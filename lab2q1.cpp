@@ -147,6 +147,7 @@ class linkedlist{
 		circles* current = head;
 		while(i< pos-1){
 			current =current->next;
+			i++;
 		}
 		//store its next in temp
 
